@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Title</title>
+</head>
+
+<body onload="playcode();">
+    <div id="alert">
+    <div class="overlaycontainer">
+
+        <i id= "close"class="fas fa-2x  fa-window-close"></i>
+        
+        <div class="overlaybox text-center ">
+            HAPPY EGGS
+            <button id="play" class="fas fa-2x  fa-window-close">Play</button>
+        </div>
+
+    </div>
+    </div>
+    <div class="nav-score d-flex justify-content-between ">
+        <span>Score:<spane id="score">0</spane></span>
+       <span> Life:<spane id="life">10</spane></span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 ">
+                <div id="chicken1">
+                    <img id="chicken-img" class="hen" src="imgs/Happy_hen.svg">
+                    <img id="egg-img" class="egg"  src="imgs/Happy_Egg.svg">
+                    <img id="broken" class="bullseye" src="imgs/Broken_Egg.svg">
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div id="chicken1">
+                    <img id="chicken-img" class="hen" src="imgs/Happy_hen.svg">
+                    <img id="egg-img1" class="egg"  src="imgs/Happy_Egg.svg">
+                    <img id="broken_1" class="bullseye"  src="imgs/Broken_Egg.svg">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="chicken1">
+                    <img id="chicken-img" class="hen" src="imgs/Happy_hen.svg">
+                    <img id="egg-img2" class="egg" src="imgs/Happy_Egg.svg">
+                    <img id="broken_2"class="bullseye" src="imgs/Broken_Egg.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="basket">
+        <span id="score_1"></span>
+    </div>
+    <div id="gameOver">
+        <h1>HAPPY EGGS</h1>
+        <h2 id="score_2" class="text-center">0</h2>
+        <button id="play-again" onclick="location.reload();">Play Again</button>
+      </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
